@@ -1,0 +1,179 @@
+@charset "utf-8";
+@font-face {
+    font-family: "zuiicon";
+    src: url('../fonts/zuiicon.eot');
+    /* IE9*/
+    src: url('../fonts/zuiicon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/zuiicon.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/zuiicon.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/zuiicon.svg#zuiicon') format('svg');
+    /* iOS 4.1- */
+}
+[class^="zui-icon-"], [class*=" zui-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'zuiicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.zui-icon {font-family: "zuiicon" !important;font-size: 24px;font-weight: normal;font-style: normal;line-height: 1;display: inline-block;text-decoration: none;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
+.zui-icon-flipx {-moz-transform: scaleX(-1);-webkit-transform: scaleX(-1);-o-transform: scaleX(-1);transform: scaleX(-1);filter: FlipH;}
+.zui-icon-flipy {-moz-transform: scaleY(-1);-webkit-transform: scaleY(-1);-o-transform: scaleY(-1);transform: scaleY(-1);filter: FlipV;}
+/*v2*/
+.zui-icon-KEFU:before {
+  content: "\e76a";
+}
+.zui-icon-MINE_1:before {
+  content: "\e65a";
+}
+.zui-icon-GOUWU:before {
+  content: "\e906";
+}
+.zui-icon-SQUARE:before {
+  content: "\e907";
+}
+.zui-icon-TEA:before {
+  content: "\e908";
+}
+.zui-icon-TRIANGLE:before {
+  content: "\e909";
+}
+.zui-icon-INDEX_1:before {
+  content: "\e90a";
+}
+.zui-icon-CART_3:before {
+  content: "\e90b";
+}
+.zui-icon-WX-FRIEND:before {
+  content: "\e904";
+}
+.zui-icon-TIMELINE:before {
+  content: "\e905";
+}
+.zui-icon-SEARCH_1:before {
+  content: "\e903";
+}
+.zui-icon-MORE_H:before {
+  content: "\e900";
+}
+.zui-icon-SHARE2:before {
+  content: "\e901";
+}
+.zui-icon-MORE_V:before {
+  content: "\e902";
+}
+.zui-icon-ALIPAY:before {
+  content: "\e657";
+}
+.zui-icon-WECHAT:before {
+  content: "\e658";
+}
+.zui-icon-BACK:before {content: "\e655";}
+.zui-icon-TRADING:before {content: "\e656";}
+.zui-icon-SETTING:before {content: "\f001f";}
+.zui-icon-MINE:before {content: "\e63b";}
+.zui-icon-SHARE:before {content: "\e617";}
+.zui-icon-SHOPPING-CART-EMPTY:before {content: "\e698";}
+.zui-icon-CRY:before {content: "\e69c";}
+.zui-icon-MEMO:before {content: "\e6c0";}
+.zui-icon-UNLIKE:before {content: "\e60c";}
+.zui-icon-CLOSE-BLANK:before {content: "\e625";}
+.zui-icon-DELETE:before {content: "\e62b";}
+.zui-icon-IMGCARD:before {content: "\e6fb";}
+.zui-icon-SHOPPING-CART:before {content: "\e726";}
+.zui-icon-CLOSE-SOLID:before {content: "\e62a";}
+.zui-icon-EDIT:before {content: "\e605";}
+.zui-icon-COUPON:before {content: "\e661";}
+.zui-icon-SEARCH:before {content: "\e63d";}
+.zui-icon-QRCODE:before {content: "\e616";}
+.zui-icon-CHOOSE-SOLID:before {content: "\e69b";}
+.zui-icon-HMOE:before {content: "\e60d";}
+/*v1*/
+.zui-icon-back:before {content: "\e600";}
+.zui-icon-have-shared:before {content: "\e601";}
+.zui-icon-order:before {content: "\e602";}
+.zui-icon-close:before {content: "\e603";}
+.zui-icon-add:before {content: "\e604";}
+.zui-icon-shopping-cart:before {content: "\e606";}
+.zui-icon-up-arrow:before {content: "\e607";}
+.zui-icon-share:before {content: "\e608";}
+.zui-icon-focus:before {content: "\e609";}
+.zui-icon-browser:before {content: "\e60a";}
+.zui-icon-setting:before {content: "\e60b";}
+.zui-icon-arrow:before {content: "\e60e";}
+.zui-icon-album:before {content: "\e60f";}
+.zui-icon-artboard22copy2:before {content: "\e610";}
+.zui-icon-find:before {content: "\e611";}
+.zui-icon-mine:before {content: "\e612";}
+.zui-icon-me:before {content: "\e613";}
+.zui-icon-search1:before {content: "\e614";}
+.zui-icon-home:before {content: "\e615";}
+.zui-icon-del:before {content: "\e618";}
+.zui-icon-group4copy2:before {content: "\e619";}
+.zui-icon-up:before {content: "\e61a";}
+.zui-icon-left:before {content: "\e61b";}
+.zui-icon-artboard22copy:before {content: "\e61c";}
+.zui-icon-artboard22:before {content: "\e61d";}
+.zui-icon-collected2:before {content: "\e61e";}
+.zui-icon-collected1:before {content: "\e61f";}
+.zui-icon-zan-after:before {content: "\e620";}
+.zui-icon-head-img:before {content: "\e621";}
+.zui-icon-zan-before:before {content: "\e622";}
+.zui-icon-down:before {content: "\e623";}
+.zui-icon-collection:before {content: "\e624";}
+.zui-icon-already-collected:before {content: "\e626";}
+.zui-icon-camara:before {content: "\e627";}
+.zui-icon-classification:before {content: "\e628";}
+.zui-icon-Trash:before {content: "\e629";}
+.zui-icon-Determine:before {content: "\e62c";}
+.zui-icon-down-arrow:before {content: "\e62d";}
+.zui-icon-circle:before {content: "\e62e";}
+.zui-icon-QR-codes:before {content: "\e62f";}
+.zui-icon-QR-code:before {content: "\e630";}
+.zui-icon-pitch:before {content: "\e631";}
+.zui-icon-right:before {content: "\e632";}
+.zui-icon-follow-solid:before {content: "\e633";}
+.zui-icon-add-photos:before {content: "\e634";}
+.zui-icon-follow-hollow:before {content: "\e635";}
+.zui-icon-search:before {content: "\e636";}
+.zui-icon-choose:before {content: "\e637";}
+.zui-icon-address:before {content: "\e638";}
+.zui-icon-down1:before {content: "\e639";}
+.zui-icon-life:before {content: "\e63a";}
+.zui-icon-downs:before {content: "\e63c";}
+.zui-icon-order1:before {content: "\e63e";}
+.zui-icon-commondity:before {content: "\e63f";}
+.zui-icon-shipped:before {content: "\e640";}
+.zui-icon-dingdan2:before {content: "\e641";}
+.zui-icon-finance1:before {content: "\e642";}
+.zui-icon-customer1:before {content: "\e643";}
+.zui-icon-commodity1:before {content: "\e644";}
+.zui-icon-life1:before {content: "\e645";}
+.zui-icon-article1:before {content: "\e646";}
+.zui-icon-comment:before {content: "\e647";}
+.zui-icon-payment:before {content: "\e648";}
+.zui-icon-the-receipt:before {content: "\e649";}
+.zui-icon-shipped1:before {content: "\e64a";}
+.zui-icon-article:before {content: "\e64b";}
+.zui-icon-finance:before {content: "\e64c";}
+.zui-icon-customer:before {content: "\e64d";}
+.zui-icon-shopping:before {content: "\e64e";}
+.zui-icon-coupon:before {content: "\e64f";}
+.zui-icon-reprint:before {content: "\e650";}
+.zui-icon-Overhead:before {content: "\e651";}
+.zui-icon-Cancel-top:before {content: "\e652";}
+.zui-icon-customer-service:before {content: "\e653";}
+.zui-icon-shop:before {content: "\e654";}
+
+html,body {font-family: PingFangSC-Light,helvetica,'Noto sans CJK','Source Han Sans','Heiti SC';}
+img{width: 100%;max-height: 100%; height: 100%;}
+h1,h2,h3,h4,h5,h6,form{margin: 0;padding: 0;}
+ul{list-style: none;margin: 0;padding: 0;}
+/*body {margin-bottom: 50px;overflow-x: hidden;width: 100%;}*/
