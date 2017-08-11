@@ -1,4 +1,4 @@
-# zens-v
+# mall-vue
 
 > A Vue.js project
 
